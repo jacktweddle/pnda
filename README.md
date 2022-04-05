@@ -18,7 +18,7 @@ Initial OpenMC simulations include recreating MCNP simulations of a PNDA testbed
 
 ### FETCH
 
-FETCH simulations have thus far been used to perform full scale simulations of the NILE bunker and used to obtain flux and dose profiles to compare with MCNP simulations. Current work is being undertaken to investigate time dependent functionality as well as implementing a point source to determine if it is suitable to perform PNDA simulations in FETCH
+FETCH simulations have thus far been used to perform full scale simulations of the NILE bunker and used to obtain flux and dose profiles to compare with MCNP simulations. Current work is being undertaken to investigate time dependent functionality as well as implementing a point source to determine if it is suitable to perform PNDA simulations in FETCH.
 
 ## In this repository
 
