@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <cross_sections>/Users/jacktweddle/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents – Jack’s MacBook Pro/STFC/Birmingham Project/OpenMC/endfb80_hdf5.tmp/cross_sections.xml</cross_sections>
+  <material id="29" name="concrete">
+    <density units="g/cm3" value="2.3" />
+    <nuclide ao="2.6170238119999997e-05" name="H2" />
+    <nuclide ao="0.16801182976188" name="H1" />
+    <nuclide ao="0.000201628" name="O17" />
+    <nuclide ao="0.5307341592" name="O16" />
+    <nuclide ao="0.0010642128" name="O18" />
+    <nuclide ao="0.021365" name="Na23" />
+    <nuclide ao="0.021343" name="Al27" />
+    <nuclide ao="0.1874393009608" name="Si28" />
+    <nuclide ao="0.0062740661396" name="Si30" />
+    <nuclide ao="0.0095176328996" name="Si29" />
+    <nuclide ao="2.510325e-05" name="Ca43" />
+    <nuclide ao="0.01802617895" name="Ca40" />
+    <nuclide ao="0.0003878917" name="Ca44" />
+    <nuclide ao="7.438000000000001e-07" name="Ca46" />
+    <nuclide ao="3.4772649999999996e-05" name="Ca48" />
+    <nuclide ao="0.00012030965000000001" name="Ca42" />
+    <nuclide ao="0.00389587484" name="Fe56" />
+    <nuclide ao="1.197372e-05" name="Fe58" />
+    <nuclide ao="8.997274e-05" name="Fe57" />
+    <nuclide ao="0.0002481787" name="Fe54" />
+    <sab name="c_H_in_H2O" />
+  </material>
+  <material id="30" name="polyethylene">
+    <density units="g/cm3" value="0.96" />
+    <nuclide name="C12" wo="84.5733859393449" />
+    <nuclide name="C13" wo="1.0266140606550926" />
+    <nuclide name="H2" wo="0.004481169860737179" />
+    <nuclide name="H1" wo="14.395518830139263" />
+    <sab name="c_H_in_CH2" />
+  </material>
+  <material id="31" name="HDPE">
+    <density units="g/cm3" value="1.07" />
+    <nuclide name="C12" wo="84.5733859393449" />
+    <nuclide name="C13" wo="1.0266140606550926" />
+    <nuclide name="H2" wo="0.004481169860737179" />
+    <nuclide name="H1" wo="14.395518830139263" />
+    <sab name="c_H_in_CH2" />
+  </material>
+  <material id="32" name="air">
+    <density units="g/cm3" value="0.001225" />
+    <nuclide ao="0.781557629247" name="N14" />
+    <nuclide ao="0.002873370753" name="N15" />
+    <nuclide ao="7.9873492e-05" name="O17" />
+    <nuclide ao="0.21024654620879998" name="O16" />
+    <nuclide ao="0.00042158029919999997" name="O18" />
+    <nuclide ao="0.004581761" name="Ar40" />
+    <nuclide ao="2.8934e-06" name="Ar38" />
+    <nuclide ao="1.53456e-05" name="Ar36" />
+  </material>
+  <material id="33" name="steel">
+    <density units="g/cm3" value="8.0" />
+    <nuclide name="C12" wo="0.02" />
+    <nuclide name="Si28" wo="0.2297" />
+    <nuclide name="Si29" wo="0.0121" />
+    <nuclide name="Si30" wo="0.0082" />
+    <nuclide name="P31" wo="0.0115" />
+    <nuclide name="S32" wo="0.0071" />
+    <nuclide name="S33" wo="0.0001" />
+    <nuclide name="S34" wo="0.0003" />
+    <nuclide name="Cr50" wo="0.3965" />
+    <nuclide name="Cr52" wo="57.9515" />
+    <nuclide name="Cr53" wo="0.919" />
+    <nuclide name="Cr54" wo="0.2331" />
+    <nuclide name="Mn55" wo="0.5" />
+    <nuclide name="Fe54" wo="1.9809" />
+    <nuclide name="Fe56" wo="32.245" />
+    <nuclide name="Fe57" wo="0.758" />
+    <nuclide name="Fe58" wo="0.1026" />
+    <nuclide name="Ni58" wo="3.1079" />
+    <nuclide name="Ni60" wo="1.2384" />
+    <nuclide name="Ni61" wo="0.0547" />
+    <nuclide name="Ni62" wo="0.1773" />
+    <nuclide name="Ni64" wo="0.0466" />
+  </material>
+  <material id="34" name="mirrobor">
+    <density units="g/cm3" value="1.36" />
+    <nuclide name="B10" wo="12.1" />
+    <nuclide name="B11" wo="48.5" />
+    <nuclide name="C12" wo="30.8" />
+    <nuclide name="O16" wo="5" />
+    <nuclide name="H1" wo="1" />
+  </material>
+  <material id="35" name="He3">
+    <density units="g/cm3" value="0.000165" />
+    <nuclide name="He3" wo="100" />
+  </material>
+</materials>
