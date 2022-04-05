@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="34" material="27" region="97 -98 99 -100" universe="4" />
+  <cell id="35" material="28" region="-97 101 -102" universe="4" />
+  <cell id="36" material="26" region="-97 99 -101" universe="4" />
+  <cell id="37" material="26" region="-97 102 -100" universe="4" />
+  <cell id="38" material="25" region="-103 104 -105" universe="4" />
+  <cell id="39" material="void" region="-106 ~(-103 104 -105) ~(-97 101 -102) ~(97 -98 99 -100) ~(-97 99 -101) ~(-97 102 -100)" universe="4" />
+  <surface coeffs="0 0 1.549" id="97" type="x-cylinder" />
+  <surface coeffs="0 0 1.6" id="98" type="x-cylinder" />
+  <surface coeffs="15.753" id="99" type="x-plane" />
+  <surface coeffs="31.143" id="100" type="x-plane" />
+  <surface coeffs="17.023" id="101" type="x-plane" />
+  <surface coeffs="19.413" id="102" type="x-plane" />
+  <surface coeffs="0 0 5" id="103" type="z-cylinder" />
+  <surface coeffs="-1.75" id="104" type="z-plane" />
+  <surface coeffs="1.75" id="105" type="z-plane" />
+  <surface boundary="vacuum" coeffs="0.0 0.0 0.0 100" id="106" type="sphere" />
+</geometry>
