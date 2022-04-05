@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="12" material="13" region="33 -34 35 -36" universe="2" />
+  <cell id="13" material="12" region="-33 37 -38" universe="2" />
+  <cell id="14" material="16" region="-33 35 -37" universe="2" />
+  <cell id="15" material="16" region="-33 38 -36" universe="2" />
+  <cell id="16" material="16" region="-39 -41 40" universe="2" />
+  <cell id="17" material="15" region="-43 -45 44" universe="2" />
+  <cell id="18" material="10" region="-42 -45 41 ~(-43 -45 44)" universe="2" />
+  <cell id="19" material="16" region="46 -47 41 -48 49 -50 ~(-43 -45 44) ~(-42 -45 41 ~(-43 -45 44)) ~(33 -34 35 -36) ~(-33 37 -38) ~(-33 35 -37) ~(-33 38 -36)" universe="2" />
+  <cell id="20" material="11" region="51 -52 53 -54 55 -56 ~(-39 -41 40) ~(-43 -45 44) ~(-42 -45 41 ~(-43 -45 44)) ~(46 -47 41 -48 49 -50 ~(-43 -45 44) ~(-42 -45 41 ~(-43 -45 44)) ~(33 -34 35 -36) ~(-33 37 -38) ~(-33 35 -37) ~(-33 38 -36)) ~(33 -34 35 -36) ~(-33 37 -38) ~(-33 35 -37) ~(-33 38 -36)" universe="2" />
+  <cell id="21" material="9" region="57 -58 59 -60 61 -62 ~(-39 -41 40) ~(-42 -45 41 ~(-43 -45 44)) ~(-43 -45 44) ~(46 -47 41 -48 49 -50 ~(-43 -45 44) ~(-42 -45 41 ~(-43 -45 44)) ~(33 -34 35 -36) ~(-33 37 -38) ~(-33 35 -37) ~(-33 38 -36)) ~(51 -52 53 -54 55 -56 ~(-39 -41 40) ~(-43 -45 44) ~(-42 -45 41 ~(-43 -45 44)) ~(46 -47 41 -48 49 -50 ~(-43 -45 44) ~(-42 -45 41 ~(-43 -45 44)) ~(33 -34 35 -36) ~(-33 37 -38) ~(-33 35 -37) ~(-33 38 -36)) ~(33 -34 35 -36) ~(-33 37 -38) ~(-33 35 -37) ~(-33 38 -36)) ~(33 -34 35 -36) ~(-33 37 -38) ~(-33 35 -37) ~(-33 38 -36)" universe="2" />
+  <cell id="22" material="14" region="63 -64" universe="2" />
+  <surface coeffs="-21.607 0 1.549" id="33" type="x-cylinder" />
+  <surface coeffs="-21.607 0 1.6" id="34" type="x-cylinder" />
+  <surface coeffs="14" id="35" type="x-plane" />
+  <surface coeffs="29.39" id="36" type="x-plane" />
+  <surface coeffs="15.27" id="37" type="x-plane" />
+  <surface coeffs="17.66" id="38" type="x-plane" />
+  <surface boundary="vacuum" coeffs="0 0 5.08" id="39" type="y-cylinder" />
+  <surface boundary="vacuum" coeffs="-40" id="40" type="y-plane" />
+  <surface coeffs="-30.353" id="41" type="y-plane" />
+  <surface coeffs="0 0 6.420999999999999" id="42" type="y-cylinder" />
+  <surface coeffs="0 0 6.321" id="43" type="y-cylinder" />
+  <surface coeffs="-30.253" id="44" type="y-plane" />
+  <surface coeffs="-12.353" id="45" type="y-plane" />
+  <surface coeffs="-30.353" id="46" type="x-plane" />
+  <surface coeffs="30.353" id="47" type="x-plane" />
+  <surface coeffs="30.353" id="48" type="y-plane" />
+  <surface coeffs="-30.353" id="49" type="z-plane" />
+  <surface coeffs="30.353" id="50" type="z-plane" />
+  <surface coeffs="-30.607" id="51" type="x-plane" />
+  <surface coeffs="30.607" id="52" type="x-plane" />
+  <surface coeffs="-30.607" id="53" type="y-plane" />
+  <surface coeffs="30.607" id="54" type="y-plane" />
+  <surface coeffs="-30.607" id="55" type="z-plane" />
+  <surface coeffs="30.607" id="56" type="z-plane" />
+  <surface boundary="vacuum" coeffs="-33.02" id="57" type="x-plane" />
+  <surface boundary="vacuum" coeffs="33.02" id="58" type="x-plane" />
+  <surface boundary="vacuum" coeffs="-33.02" id="59" type="y-plane" />
+  <surface boundary="vacuum" coeffs="33.02" id="60" type="y-plane" />
+  <surface boundary="vacuum" coeffs="-33.02" id="61" type="z-plane" />
+  <surface boundary="vacuum" coeffs="33.02" id="62" type="z-plane" />
+  <surface coeffs="0 0 0 548.64" id="63" type="sphere" />
+  <surface boundary="vacuum" coeffs="0 0 0 609.6" id="64" type="sphere" />
+</geometry>

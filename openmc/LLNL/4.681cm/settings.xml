@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>fixed source</run_mode>
+  <particles>100000000</particles>
+  <batches>20</batches>
+  <inactive>0</inactive>
+  <source strength="1.0">
+    <space type="point">
+      <parameters>0 -35.894 0</parameters>
+    </space>
+    <angle reference_uvw="0.0 1.0 0.0" type="mu-phi">
+      <mu parameters="-0.7596879128588212 1.0" type="uniform" />
+      <phi parameters="0.0 6.283185307179586" type="uniform" />
+    </angle>
+    <energy type="discrete">
+      <parameters>2500000.0 1</parameters>
+    </energy>
+    <time parameters="0 0.00066" type="uniform" />
+  </source>
+  <output>
+    <tallies>true</tallies>
+  </output>
+</settings>
